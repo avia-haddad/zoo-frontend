@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(2, 0, 36);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  overflow-y: overlay;
+  max-height: calc(100vh - 405px - 10px);
+  color: white;
+}
+
+#Total {
+  text-align: center;
+  height: 700px;
+  width: 500px;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+#dateTime {
+  float: right;
+}
+
+#Title {
+  top: 0%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 1.7rem;
+}
+
+#Btn4 {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  border: 0;
+  font-weight: bold;
+}
+#Btn8 {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  border: 0;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+#Btn10 {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  border: 0;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+#animalTable {
+  margin-block-end: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30px;
+  margin-right: 20px;
+  margin-top: 2rem;
+  position: absolute;
+  right: 700px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+#animalTable th {
+  border: 0;
+}
+
+#animalTable td {
+  border: 0;
+}
+
+#animalTable img {
+  border-radius: 10px;
+}
+
+#information {
+  background-color: whitesmoke;
+  font-style: normal;
+  align-items: center;
+  position: absolute;
+  right: 70px;
+  font-weight: bolder;
+  font-size: small;
+  border-color: black;
+  border-radius: 30px;
+  border: 5px solid black;
+  color: black;
+  padding: 1rem;
+}
+
+#info {
+  font-style: normal;
+  position: absolute;
+}
